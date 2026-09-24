@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Novaconsult - Contabilidade Empresarial em Recife - PE. Contabilidade, consultoria, auditoria, treinamento e apoio administrativo.">
+  <meta name="theme-color" content="#0b5ed7">
+  <title>Novaconsult - Contabilidade Empresarial | Recife - PE</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <style>
+    :root{
+      --primary:#0b5ed7;--primary-dark:#073b8f;--navy:#10233f;
+      --text:#17202d;--muted:#667085;--soft:#f5f8fc;--line:#e5eaf1;
+    }
+    html{scroll-behavior:smooth}
+    body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--text);line-height:1.65}
+    .navbar{background:rgba(255,255,255,.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .brand-mark{width:44px;height:44px;border-radius:13px;display:inline-flex;align-items:center;justify-content:center;color:#fff;background:linear-gradient(135deg,var(--primary),#58a0ff);box-shadow:0 9px 25px rgba(11,94,215,.22)}
+    .hero{padding:155px 0 95px;background:radial-gradient(circle at 88% 18%,rgba(11,94,215,.16),transparent 30%),radial-gradient(circle at 8% 82%,rgba(25,135,84,.08),transparent 28%),linear-gradient(180deg,#f7fbff,#fff)}
+    .badge-soft{display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;color:var(--primary-dark);background:#eef6ff;border:1px solid #dcecff;font-weight:800;font-size:.88rem}
+    .hero h1{font-size:clamp(2.4rem,5vw,4.7rem);line-height:1.04;letter-spacing:-.05em;font-weight:850}
+    .hero h1 span{color:var(--primary)}
+    .hero-panel{background:#fff;border:1px solid var(--line);border-radius:26px;box-shadow:0 25px 70px rgba(16,35,63,.11)}
+    .icon-box{width:54px;height:54px;border-radius:16px;display:inline-flex;align-items:center;justify-content:center;color:var(--primary);background:#edf5ff;font-size:1.35rem;flex:0 0 auto}
+    .section{padding:95px 0}.section-soft{background:var(--soft)}
+    .kicker{color:var(--primary);font-size:.82rem;text-transform:uppercase;letter-spacing:.14em;font-weight:850;margin-bottom:10px}
+    .section-title{font-weight:850;letter-spacing:-.03em}
+    .card-clean{height:100%;background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px;transition:.2s}
+    .card-clean:hover{transform:translateY(-4px);box-shadow:0 18px 45px rgba(16,35,63,.09)}
+    .card-clean h3{font-size:1.12rem;font-weight:800}
+    .stat{height:100%;padding:22px;border-radius:18px;background:#fff;border:1px solid var(--line);text-align:center}
+    .stat strong{display:block;color:var(--primary);font-size:1.5rem;font-weight:850}.stat span{color:var(--muted);font-size:.9rem}
+    .cta{position:relative;overflow:hidden;border-radius:28px;background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:#fff}
+    .cta:after{content:"";position:absolute;width:330px;height:330px;right:-130px;top:-140px;border-radius:50%;background:rgba(255,255,255,.08)}
+    .btn{border-radius:12px;font-weight:750;padding:11px 18px}
+    .contact-card{height:100%;padding:26px;background:#fff;border:1px solid var(--line);border-radius:20px}
+    .contact-link{color:inherit;text-decoration:none}.contact-link:hover{color:var(--primary)}
+    footer{background:#101828;color:#b8c1d1}footer a{color:#fff;text-decoration:none}
+    .muted{color:var(--muted)}
+    @media(max-width:991.98px){.hero{padding-top:125px}}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2 fw-bold" href="#inicio">
+      <span class="brand-mark"><i class="bi bi-calculator"></i></span>
+      <span>Nova<span class="text-primary">consult</span></span>
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Abrir menu">
+      <i class="bi bi-list fs-2"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+        <li class="nav-item"><a class="nav-link" href="#empresa">Empresa</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        <li class="nav-item ms-lg-2 mt-2 mt-lg-0"><a class="btn btn-primary" href="tel:+558130719525"><i class="bi bi-telephone me-1"></i>Ligar agora</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="inicio">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <div class="badge-soft mb-4"><i class="bi bi-patch-check-fill"></i>Contabilidade Empresarial • Recife - PE</div>
+        <h1 class="mb-4">Contabilidade para transformar números em <span>clareza.</span></h1>
+        <p class="lead text-secondary mb-4">
+          A Novaconsult oferece soluções em contabilidade, consultoria, auditoria,
+          treinamento profissional e apoio administrativo para empresas.
+        </p>
+        <div class="d-flex flex-wrap gap-3">
+          <a href="tel:+558130719525" class="btn btn-primary btn-lg"><i class="bi bi-telephone me-2"></i>Falar com a Novaconsult</a>
+          <a href="#servicos" class="btn btn-outline-primary btn-lg">Conhecer serviços</a>
+        </div>
+        <div class="d-flex flex-wrap gap-4 mt-4 muted small">
+          <span><i class="bi bi-check-circle-fill text-success me-1"></i>Empresa ativa</span>
+          <span><i class="bi bi-award-fill text-primary me-1"></i>CRC PE-002365/O</span>
+          <span><i class="bi bi-geo-alt-fill text-primary me-1"></i>Recife - Pernambuco</span>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="hero-panel p-4 p-md-5">
+          <div class="d-flex align-items-center gap-3 mb-4">
+            <div class="icon-box"><i class="bi bi-bar-chart-line"></i></div>
+            <div>
+              <div class="fw-bold">Novaconsult - Contabilidade Empresarial</div>
+              <div class="muted small">Walter Pereira de Moura Junior Contabilidade</div>
+            </div>
+          </div>
+          <div class="vstack gap-3">
+            <div class="d-flex gap-3"><i class="bi bi-check2-circle text-primary fs-5"></i><span>Contabilidade empresarial e rotinas contábeis</span></div>
+            <div class="d-flex gap-3"><i class="bi bi-check2-circle text-primary fs-5"></i><span>Consultoria e auditoria contábil e tributária</span></div>
+            <div class="d-flex gap-3"><i class="bi bi-check2-circle text-primary fs-5"></i><span>Treinamento profissional e gerencial</span></div>
+            <div class="d-flex gap-3"><i class="bi bi-check2-circle text-primary fs-5"></i><span>Apoio administrativo e gestão imobiliária</span></div>
+          </div>
+          <hr class="my-4">
+          <div class="d-flex justify-content-between align-items-center">
+            <div><div class="muted small">Situação cadastral</div><strong class="text-success">Ativa</strong></div>
+            <span class="badge text-bg-primary rounded-pill px-3 py-2"><i class="bi bi-shield-check me-1"></i>CRC PE-002365/O</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="section" id="sobre">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <div class="kicker">Sobre a empresa</div>
+        <h2 class="section-title display-6 mb-4">Experiência para apoiar a gestão da sua empresa</h2>
+        <p class="text-secondary">
+          A <strong>Novaconsult - Contabilidade Empresarial</strong>, razão social
+          <strong>Walter Pereira de Moura Junior Contabilidade</strong>, atua desde
+          23 de abril de 2015 em Recife, Pernambuco.
+        </p>
+        <p class="text-secondary">
+          Sua atividade principal é a prestação de serviços de contabilidade. A empresa
+          também possui atividades relacionadas a consultoria e auditoria contábil e tributária,
+          treinamento em desenvolvimento profissional e gerencial, apoio administrativo e
+          gestão e administração de propriedade imobiliária.
+        </p>
+        <a href="#contato" class="btn btn-dark mt-2"><i class="bi bi-chat-dots me-2"></i>Solicitar atendimento</a>
+      </div>
+      <div class="col-lg-6">
+        <div class="row g-3">
+          <div class="col-6"><div class="stat"><strong>2015</strong><span>Ano de abertura</span></div></div>
+          <div class="col-6"><div class="stat"><strong>PE</strong><span>CRC PE-002365/O</span></div></div>
+          <div class="col-6"><div class="stat"><strong>ME</strong><span>Microempresa</span></div></div>
+          <div class="col-6"><div class="stat"><strong>Simples</strong><span>Optante pelo Simples</span></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft" id="servicos">
+  <div class="container">
+    <div class="text-center mx-auto" style="max-width:800px">
+      <div class="kicker">Atividades de contabilidade</div>
+      <h2 class="section-title display-6 mb-3">Serviços para diferentes necessidades empresariais</h2>
+      <p class="text-secondary mb-5">Uma apresentação completa das atividades informadas para a Novaconsult.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4"><div class="card-clean"><div class="icon-box mb-4"><i class="bi bi-calculator"></i></div><h3>Contabilidade empresarial</h3><p class="text-secondary mb-0">Organização e acompanhamento das informações e rotinas contábeis da empresa.</p></div></div>
+      <div class="col-md-6 col-lg-4"><div class="card-clean"><div class="icon-box mb-4"><i class="bi bi-search"></i></div><h3>Consultoria e auditoria</h3><p class="text-secondary mb-0">Consultoria e auditoria contábil e tributária para análise e acompanhamento das informações empresariais.</p></div></div>
+      <div class="col-md-6 col-lg-4"><div class="card-clean"><div class="icon-box mb-4"><i class="bi bi-mortarboard"></i></div><h3>Treinamento profissional</h3><p class="text-secondary mb-0">Treinamento em desenvolvimento profissional e gerencial para apoiar o aprimoramento de equipes.</p></div></div>
+      <div class="col-md-6 col-lg-4"><div class="card-clean"><div class="icon-box mb-4"><i class="bi bi-folder-check"></i></div><h3>Apoio administrativo</h3><p class="text-secondary mb-0">Serviços combinados de escritório e apoio administrativo para a organização das atividades empresariais.</p></div></div>
+      <div class="col-md-6 col-lg-4"><div class="card-clean"><div class="icon-box mb-4"><i class="bi bi-buildings"></i></div><h3>Gestão imobiliária</h3><p class="text-secondary mb-0">Atividades de gestão e administração de propriedade imobiliária conforme a necessidade do cliente.</p></div></div>
+      <div class="col-md-6 col-lg-4"><div class="card-clean"><div class="icon-box mb-4"><i class="bi bi-person-check"></i></div><h3>Atendimento personalizado</h3><p class="text-secondary mb-0">Atendimento profissional e direcionado às demandas contábeis e empresariais apresentadas.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-5">
+        <div class="kicker">Nosso diferencial</div>
+        <h2 class="section-title display-6 mb-3">Informação contábil com linguagem clara</h2>
+        <p class="text-secondary">A contabilidade pode ser mais do que números: é uma fonte importante de informação para acompanhar a empresa e organizar suas rotinas.</p>
+      </div>
+      <div class="col-lg-7">
+        <div class="row g-4">
+          <div class="col-md-6"><div class="d-flex gap-3"><div class="icon-box"><i class="bi bi-person-check"></i></div><div><h3 class="h5 fw-bold">Atendimento próximo</h3><p class="text-secondary mb-0">Comunicação objetiva e acompanhamento das demandas.</p></div></div></div>
+          <div class="col-md-6"><div class="d-flex gap-3"><div class="icon-box"><i class="bi bi-graph-up-arrow"></i></div><div><h3 class="h5 fw-bold">Visão empresarial</h3><p class="text-secondary mb-0">Informações organizadas para apoiar o acompanhamento do negócio.</p></div></div></div>
+          <div class="col-md-6"><div class="d-flex gap-3"><div class="icon-box"><i class="bi bi-shield-check"></i></div><div><h3 class="h5 fw-bold">Responsabilidade</h3><p class="text-secondary mb-0">Atuação profissional de acordo com as necessidades apresentadas.</p></div></div></div>
+          <div class="col-md-6"><div class="d-flex gap-3"><div class="icon-box"><i class="bi bi-lightbulb"></i></div><div><h3 class="h5 fw-bold">Orientação clara</h3><p class="text-secondary mb-0">Informações apresentadas de forma simples e objetiva.</p></div></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft" id="empresa">
+  <div class="container">
+    <div class="text-center mx-auto" style="max-width:780px">
+      <div class="kicker">Dados cadastrais</div>
+      <h2 class="section-title display-6 mb-3">Informações da Novaconsult</h2>
+      <p class="text-secondary mb-5">Dados fornecidos para apresentação institucional da empresa.</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="card-clean">
+          <h3 class="h5 mb-4"><i class="bi bi-building me-2 text-primary"></i>Registro empresarial</h3>
+          <div class="row g-3">
+            <div class="col-sm-6"><div class="muted small">CNPJ</div><strong>22.313.581/0001-54</strong></div>
+            <div class="col-sm-6"><div class="muted small">Inscrição Estadual</div><strong>PE 0621761-37</strong></div>
+            <div class="col-sm-6"><div class="muted small">Abertura</div><strong>23/04/2015</strong></div>
+            <div class="col-sm-6"><div class="muted small">Porte</div><strong>Microempresa</strong></div>
+            <div class="col-sm-6"><div class="muted small">Natureza jurídica</div><strong>Empresário (Individual)</strong></div>
+            <div class="col-sm-6"><div class="muted small">Capital social</div><strong>R$ 1.000,00</strong></div>
+            <div class="col-sm-6"><div class="muted small">Simples Nacional</div><strong>Sim</strong></div>
+            <div class="col-sm-6"><div class="muted small">Situação</div><strong class="text-success">Ativa</strong></div>
+            <div class="col-sm-6"><div class="muted small">Tipo</div><strong>Matriz</strong></div>
+            <div class="col-sm-6"><div class="muted small">CRC</div><strong>PE-002365/O</strong></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card-clean">
+          <h3 class="h5 mb-4"><i class="bi bi-diagram-3 me-2 text-primary"></i>Atividades — CNAEs</h3>
+          <div class="mb-4"><div class="muted small mb-1">Principal</div><strong>69.20-6-01 — Atividades de contabilidade</strong></div>
+          <div class="mb-4"><div class="muted small mb-1">Secundária</div><strong>85.99-6-04 — Treinamento em desenvolvimento profissional e gerencial</strong></div>
+          <div class="mb-4"><div class="muted small mb-1">Secundária</div><strong>82.11-3-00 — Serviços combinados de escritório e apoio administrativo</strong></div>
+          <div class="mb-4"><div class="muted small mb-1">Secundária</div><strong>68.22-6-00 — Gestão e administração da propriedade imobiliária</strong></div>
+          <div><div class="muted small mb-1">Secundária</div><strong>69.20-6-02 — Atividades de consultoria e auditoria contábil e tributária</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="col-lg-6">
+        <div class="kicker">Localização</div>
+        <h2 class="section-title display-6 mb-3">Estamos em Recife - PE</h2>
+        <p class="text-secondary mb-4">A Novaconsult está localizada no bairro Espinheiro, em Recife, Pernambuco.</p>
+        <div class="d-flex gap-3 mb-3"><div class="icon-box"><i class="bi bi-geo-alt"></i></div><div><strong>Endereço</strong><div class="text-secondary">Avenida Governador Agamenon Magalhaes, 2764<br>Sala 0604 — Empres. Antonio de Albuquerque Galvao<br>Espinheiro, Recife - PE<br>CEP 52020-000</div></div></div>
+        <a class="btn btn-outline-primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Avenida%20Governador%20Agamenon%20Magalhaes%2C%202764%2C%20Espinheiro%2C%20Recife%2C%20PE"><i class="bi bi-map me-2"></i>Ver no Google Maps</a>
+      </div>
+      <div class="col-lg-6">
+        <div class="card-clean">
+          <h3 class="h5 mb-4"><i class="bi bi-envelope-paper me-2 text-primary"></i>Fale conosco</h3>
+          <div class="d-flex gap-3 mb-4"><div class="icon-box"><i class="bi bi-envelope"></i></div><div><div class="muted small">E-mail</div><a class="contact-link fw-bold" href="mailto:evaldo@assessoriadecontbr.online">evaldo@assessoriadecontbr.online</a></div></div>
+          <div class="d-flex gap-3"><div class="icon-box"><i class="bi bi-telephone"></i></div><div><div class="muted small">Telefone</div><a class="contact-link fw-bold" href="tel:+558130719525">(81) 3071-9525</a></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contato">
+  <div class="container">
+    <div class="cta p-4 p-md-5">
+      <div class="row align-items-center g-4 position-relative" style="z-index:1">
+        <div class="col-lg-7">
+          <div class="text-uppercase fw-bold small opacity-75 mb-2">Entre em contato</div>
+          <h2 class="display-6 fw-bold mb-3">Vamos conversar sobre as necessidades da sua empresa?</h2>
+          <p class="mb-0 opacity-75">Entre em contato com a Novaconsult para solicitar informações sobre os serviços disponíveis.</p>
+        </div>
+        <div class="col-lg-5">
+          <div class="d-flex flex-column gap-3">
+            <a class="btn btn-light btn-lg text-primary" href="tel:+558130719525"><i class="bi bi-telephone me-2"></i>(81) 3071-9525</a>
+            <a class="btn btn-outline-light btn-lg" href="mailto:evaldo@assessoriadecontbr.online"><i class="bi bi-envelope me-2"></i>Enviar e-mail</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="d-flex align-items-center gap-2 text-white fw-bold mb-3"><span class="brand-mark"><i class="bi bi-calculator"></i></span>Novaconsult - Contabilidade Empresarial</div>
+        <p class="mb-0">Contabilidade, consultoria, auditoria, treinamento e apoio administrativo em Recife - PE.</p>
+      </div>
+      <div class="col-lg-3"><div class="text-white fw-bold mb-2">Empresa</div><div>CNPJ: 22.313.581/0001-54</div><div>CRC: PE-002365/O</div><div>Situação: Ativa</div></div>
+      <div class="col-lg-3"><div class="text-white fw-bold mb-2">Navegação</div><div class="d-flex flex-column gap-1"><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#empresa">Empresa</a><a href="#contato">Contato</a></div></div>
+    </div>
+    <hr class="border-secondary my-4">
+    <div class="d-flex flex-column flex-md-row justify-content-between gap-2 small">
+      <span>© <span id="year"></span> Novaconsult - Contabilidade Empresarial. Todos os direitos reservados.</span>
+      <span>Recife — Pernambuco</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
